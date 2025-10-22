@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1120680013230147358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2450272556826027562}
+  - component: {fileID: 7840180390118084214}
+  m_Layer: 0
+  m_Name: BookManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2450272556826027562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120680013230147358}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.08466, y: 0.03333, z: 22.61641}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7840180390118084214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120680013230147358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f4b332091949b4a91865f5271d7e05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bookCanvas: {fileID: 0}
+  frontCover: {fileID: 0}
+  backCover: {fileID: 0}
+  bookBackOpen: {fileID: 0}
+  leftPageImage: {fileID: 0}
+  rightPageImage: {fileID: 0}
+  frontCoverClip: {fileID: 8300000, guid: 1aef00d1127ab3242beaedd8c8e24b62, type: 3}
+  pageTurnClip: {fileID: 8300000, guid: 9efc40db1539e9347a9c2fba1b3cc5fe, type: 3}
+  bookCloseClip: {fileID: 8300000, guid: 85dbe4c150848c64386e3d5bfd4054c4, type: 3}
+  leftPages:
+  - {fileID: 773641110, guid: 01607f669d6b4d14dbe7fb4c70a9567c, type: 3}
+  - {fileID: 916571859, guid: 8f3f7304fe9fcd6489db7c921166de70, type: 3}
+  - {fileID: 1800151032, guid: bcce0b6662fb1674e9f6737a5e7c8d18, type: 3}
+  - {fileID: 129575474, guid: dc5de1a239b770c4c9f102b46046d1ec, type: 3}
+  rightPages:
+  - {fileID: 21300000, guid: d4cfad3661a1a4e4b8d7210cd86c9416, type: 3}
+  - {fileID: 21300000, guid: c36241879b6f4ac4f97717ad5e310cf7, type: 3}
+  - {fileID: 21300000, guid: a06d9df505b2f2c4788746eebe0cc8fe, type: 3}
+  - {fileID: 21300000, guid: b27244cfb42f1824c94b90d445a6c2a4, type: 3}

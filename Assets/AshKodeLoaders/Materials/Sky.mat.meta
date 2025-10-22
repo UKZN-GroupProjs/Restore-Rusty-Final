@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2ab574513dffe234b901b772ce715dbd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 296151
+  packageName: Loaders models
+  packageVersion: 1.0
+  assetPath: Assets/AshKodeLoaders/Materials/Sky.mat
+  uploadId: 692025
