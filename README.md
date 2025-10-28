@@ -28,7 +28,7 @@ Inspired by the charm of *Toy Story* and classic 3D platformers, **Restore Rusty
 ### 1. Clone the Repository
 Open a terminal (or Git Bash) and run:
 ```bash
-git clone https://github.com/<your-username>/restore-rusty.git
+git clone https://github.com/UKZN-GroupProjs/Restore-Rusty-Final.git
 ```
 
 Navigate into the project folder:
@@ -42,7 +42,9 @@ cd restore-rusty
 1. Launch **Unity Hub**.
 2. Click **Add Project from Disk**.
 3. Select the cloned `restore-rusty` folder.
-4. Open it using **Unity 2022.3 LTS** (or your installed Unity version, e.g. Unity 6000.1.15f1).
+4. Open the project using **Unity 6.0000.1.15f1** (or your currently installed Unity 6.x version, such as **Unity 6000.1.15f1**).  
+If you’re using an older version like **Unity 2022.3 LTS**, please upgrade before opening the project to ensure compatibility.
+
 
 ### 3. Play the Game
 
@@ -63,10 +65,9 @@ Some assets in this project were created from first principles and are provided 
 
 If you encounter issues:
 
-* Ensure you are using the correct Unity version (2022.3 LTS recommended).
+* Ensure you are using the correct Unity version.
 * Reimport all assets (`Assets → Reimport All`).
 * Delete the `Library/` folder and reopen the project to force Unity to rebuild.
-* Check the repository’s **Issues** tab for known bugs or fixes.
 
 ---
 
